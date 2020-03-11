@@ -1,0 +1,21 @@
+.editor-styles-wrapper ul.DayPicker_weekHeader_ul {
+  list-style: none;
+  margin: 1px 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 14px;
+}
+
+.editor-styles-wrapper li.DayPicker_weekHeader_li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 0;
+}
+
+.editor-styles-wrapper li.DayPicker_weekHeader_li:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.editor-styles-wrapper li.DayPicker_weekHeader_li::before {
+  content: '';
+}

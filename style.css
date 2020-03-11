@@ -1,0 +1,35 @@
+.is-style-paragraph,
+.is-style-emphasize {
+  font-family: 'Lato', sans-serif;
+}
+
+.is-style-paragraph:not(:last-child),
+.is-style-emphasize:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.is-style-emphasize {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.is-style-list {
+  list-style: none;
+}
+
+.is-style-list li {
+  position: relative;
+  padding-left: 25px;
+}
+
+.is-style-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.is-style-list li::before {
+  content: '\2605';
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  color: #27ae60;
+}

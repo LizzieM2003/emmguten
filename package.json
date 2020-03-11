@@ -1,0 +1,22 @@
+{
+  "name": "emm-guten",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "css": "cp src/css/* build/",
+    "build": "wp-scripts build && npm run css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/browserslist-config": "^2.6.0",
+    "@wordpress/scripts": "7.1.0",
+    "browserslist": "^4.8.7"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ]
+}
