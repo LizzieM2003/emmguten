@@ -14,7 +14,7 @@
   "devDependencies": {
     "@wordpress/browserslist-config": "^2.6.0",
     "@wordpress/scripts": "7.1.0",
-    "browserslist": "^4.8.7"
+    "browserslist": "^4.16.5"
   },
   "browserslist": [
     "extends @wordpress/browserslist-config"
